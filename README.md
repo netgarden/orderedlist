@@ -7,6 +7,8 @@ smallest element — useful as a simple priority queue (e.g. "next scheduled
 run time" ordering).
 
 ```go
+import "github.com/netgarden/orderedlist"
+
 l := orderedlist.New(func(a, b int) int { return a - b })
 
 l.Add(5)
