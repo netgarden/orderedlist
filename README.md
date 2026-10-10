@@ -31,3 +31,7 @@ happens to sort the same.
 ## Concurrency
 
 `List` is safe for concurrent use by multiple goroutines.
+
+## License
+
+Apache License 2.0, see [LICENSE](LICENSE).
